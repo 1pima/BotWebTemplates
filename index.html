@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<center class="info">Меню</center>
+		<div class="inner">
+			<div class="item">
+				<button class="btn" id="btn1"><img src="https://spacelab.com.ua/media/original_images/fak_menyu_4_.gif" alt="Burger" class="img"></button>
+				<span class="info" >FAQ</span>
+			</div>
+			<div class="item">
+			    <button class="btn" id="btn2"><img src="https://spacelab.com.ua/media/original_images/fak_menyu_4_.gif" alt="Burger" class="img"></button>
+				<span class="info" >Контакты</span>
+		    </div>
+			<div class="item">
+			    <a href="https://wooppay.com"><button class="btn" id="btn3"><img src="https://spacelab.com.ua/media/original_images/fak_menyu_4_.gif" alt="Burger" class="img"></button></a>
+				<span class="info" >Сайт</span>
+			</div>
+			<div class="item">
+				<button class="btn" id="btn4"><img src="https://spacelab.com.ua/media/original_images/fak_menyu_4_.gif" alt="Burger" class="img"></button>
+				<span class="info" >Список чатов</span>
+			</div>
+			<div class="item">
+				<button class="btn" id="btn5"><img src="https://spacelab.com.ua/media/original_images/fak_menyu_4_.gif" alt="Burger" class="img"></button>
+				<span class="info" >Тесты</span>
+			</div>
+		</div>
+	</div>
+	<div class="usercard" id="usercard"></div>
+
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
+
+<!-- <script src="https://telegram.org/js/telegram-web-app.js"></script> -->
